@@ -10,13 +10,13 @@ class HelloWorld
     static public
 	function main()
 	{
-		var i=0;
-		for (arg in Sys.args())
-		{
-	        trace(i++);
-			var o=haxe.Json.parse(arg);
-			Sys.println(o.abc);
-		}
+		//var i=0;
+		//for (arg in Sys.args())
+		//{
+	    //    trace(i++);
+		//	var o=haxe.Json.parse(arg);
+		//	Sys.println(o.abc);
+		//}
 
 		Toolkit.init();
 		
